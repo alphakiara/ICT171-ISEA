@@ -23,10 +23,4 @@ Installlation for Certificate:
 sudo apt install bind9 -y | sudo apt install libnss3-tools -y | sudo apt install mkcert -y | mkcert myserver.local
 
 Installation of OpenVPN
-sudo apt install openvpn -y
-openvpn --version
-sudo systemctl status openvpn
-sudo apt install network-manager-openvpn -y
-sudo apt install network-manager-openvpn-gnome -y
-sudo systemctl restart NetworkManager
-sudo systemctl status NetworkManager
+sudo apt install openvpn -y | openvpn --version | sudo systemctl status openvpn | sudo apt install network-manager-openvpn -y | sudo apt install network-manager-openvpn-gnome -y | sudo systemctl restart NetworkManager | sudo systemctl status NetworkManager
