@@ -2,8 +2,7 @@
 Intro to Server Environment and Architectures - ICT171
 
 Updating Ubuntu:
-sudo apt update
-sudo apt upgrade
+sudo apt update | sudo apt upgrade
 
 Checking on System Services in Ubuntu:
 systemctl list-units --type=service
