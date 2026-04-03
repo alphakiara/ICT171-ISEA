@@ -5,7 +5,7 @@ sudo apt upgrade
 systemctl list-units --type=service
 systemctl start|stop [service]
 sudo systemctl status
-sudo apt install libreoffice
+sudo apt install vlc
 ps-e
 top
 ls -l
