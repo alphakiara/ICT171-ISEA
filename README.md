@@ -21,6 +21,8 @@ Installing Application (VLC Media):
   
 ![VLC installation](Screenshot_4.png)
 
+![vlx installed](Screenshot_7.png)
+
 Installing LibreOffie:
 * sudo apt install libreoffice
   
