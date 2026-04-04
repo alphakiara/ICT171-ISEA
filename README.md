@@ -32,12 +32,25 @@ Creating, Editing, Deleting File:
 * rm file.txt
 
 Configuring DNS Local Host:
-sudo apt install bind9 -y | sudo systemctl status bind9 | sudo nano /etc/hosts | 127.0.0.1    myserver.local | ping myserver.local
+* sudo apt install bind9 -y 
+* sudo systemctl status bind9
+* sudo nano /etc/hosts
+* 127.0.0.1    myserver.local
+* ping myserver.local
 ![DNS local host](Screenshot_6.png)
 ![ping success](Screenshot_7.png)
 
 Installlation for Certificate:
-sudo apt install bind9 -y | sudo apt install libnss3-tools -y | sudo apt install mkcert -y | mkcert myserver.local
+* sudo apt install bind9 -y 
+* sudo apt install libnss3-tools -y
+* sudo apt install mkcert -y
+* mkcert myserver.local
 
 Installation of OpenVPN
-sudo apt install openvpn -y | openvpn --version | sudo systemctl status openvpn | sudo apt install network-manager-openvpn -y | sudo apt install network-manager-openvpn-gnome -y | sudo systemctl restart NetworkManager | sudo systemctl status NetworkManager
+* sudo apt install openvpn -y 
+* openvpn --version
+* sudo systemctl status openvpn
+* sudo apt install network-manager-openvpn -y
+* sudo apt install network-manager-openvpn-gnome -y
+* sudo systemctl restart NetworkManager
+* sudo systemctl status NetworkManager
