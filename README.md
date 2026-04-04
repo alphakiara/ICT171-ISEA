@@ -46,6 +46,8 @@ Installlation for Certificate:
 * sudo apt install mkcert -y
 * mkcert myserver.local
 
+![able to get cert](Screenshot_8.png)
+
 Installation of OpenVPN
 * sudo apt install openvpn -y 
 * openvpn --version
