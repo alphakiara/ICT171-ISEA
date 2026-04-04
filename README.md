@@ -26,6 +26,7 @@ touch file.txt | nano file.txt | rm file.txt
 Configuring DNS Local Host:
 sudo apt install bind9 -y | sudo systemctl status bind9 | sudo nano /etc/hosts | 127.0.0.1    myserver.local | ping myserver.local
 ![DNS local host](Screenshot_6.png)
+![ping success](Screenshot_7.png)
 
 Installlation for Certificate:
 sudo apt install bind9 -y | sudo apt install libnss3-tools -y | sudo apt install mkcert -y | mkcert myserver.local
