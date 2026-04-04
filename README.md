@@ -14,6 +14,7 @@ systemctl list-units --type=service | systemctl start|stop [service] | sudo syst
 
 Installing Application (VLC Media):
 sudo apt install vlc
+![VLC installation](Screenshot_4.png)
 
 Installing LibreOffie:
 sudo apt install libreoffice
