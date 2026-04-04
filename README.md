@@ -1,6 +1,9 @@
 # ICT171-ISEA
 Intro to Server Environment and Architectures - ICT171
 
+Setting up Ubuntu:
+Getting Ubuntu ISO image file from https://ubuntu.com/download/desktop.
+
 Updating Ubuntu:
 sudo apt update | sudo apt upgrade
 
