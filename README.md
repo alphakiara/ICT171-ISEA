@@ -1,6 +1,10 @@
 # ICT171-ISEA
 Intro to Server Environment and Architectures - ICT171
 
+---------------
+Name: Teng Yi En (Kisa)
+Student ID: CT0389835 | 35978369
+
 Setting up Ubuntu:
 Getting Ubuntu ISO image file from https://ubuntu.com/download/desktop
 ![Ubuntu ISO Screenshot](Screenshot_1.png)
