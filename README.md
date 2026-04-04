@@ -2,7 +2,8 @@
 Intro to Server Environment and Architectures - ICT171
 
 Setting up Ubuntu:
-Getting Ubuntu ISO image file from https://ubuntu.com/download/desktop.
+Getting Ubuntu ISO image file from https://ubuntu.com/download/desktop (Screenshot_1.png)
+
 
 Updating Ubuntu:
 sudo apt update | sudo apt upgrade
