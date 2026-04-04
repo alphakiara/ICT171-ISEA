@@ -8,6 +8,7 @@ Getting Ubuntu ISO image file from https://ubuntu.com/download/desktop
 Updating Ubuntu:
 * sudo apt update
 * sudo apt upgrade
+  
 ![updates](Screenshot_3.png)
 
 Checking on System Services in Ubuntu:
@@ -16,15 +17,19 @@ Checking on System Services in Ubuntu:
 * sudo systemctl status
 
 Installing Application (VLC Media):
-sudo apt install vlc
+* sudo apt install vlc
+  
 ![VLC installation](Screenshot_4.png)
 
 Installing LibreOffie:
-sudo apt install libreoffice
+* sudo apt install libreoffice
+  
 ![LibreOffice installation](Screenshot_5.png)
 
 Creating, Editing, Deleting File:
-touch file.txt | nano file.txt | rm file.txt
+* touch file.txt
+* nano file.txt
+* rm file.txt
 
 Configuring DNS Local Host:
 sudo apt install bind9 -y | sudo systemctl status bind9 | sudo nano /etc/hosts | 127.0.0.1    myserver.local | ping myserver.local
