@@ -38,6 +38,7 @@ Configuring DNS Local Host:
 * 127.0.0.1    myserver.local
 * ping myserver.local
 ![DNS local host](Screenshot_6.png)
+
 ![ping success](Screenshot_7.png)
 
 Installlation for Certificate:
@@ -56,3 +57,7 @@ Installation of OpenVPN
 * sudo apt install network-manager-openvpn-gnome -y
 * sudo systemctl restart NetworkManager
 * sudo systemctl status NetworkManager
+
+![executing command](Screenshot_9.png)
+
+![openvpn installed](Screenshot_10.png)
