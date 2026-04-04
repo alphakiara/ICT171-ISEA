@@ -18,6 +18,7 @@ sudo apt install vlc
 
 Installing LibreOffie:
 sudo apt install libreoffice
+![LibreOffice installation](Screenshot_5.png)
 
 Creating, Editing, Deleting File:
 touch file.txt | nano file.txt | rm file.txt
