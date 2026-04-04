@@ -7,6 +7,7 @@ Getting Ubuntu ISO image file from https://ubuntu.com/download/desktop
 
 Updating Ubuntu:
 sudo apt update | sudo apt upgrade
+![updates](Screenshot_3.png)
 
 Checking on System Services in Ubuntu:
 systemctl list-units --type=service | systemctl start|stop [service] | sudo systemctl status
