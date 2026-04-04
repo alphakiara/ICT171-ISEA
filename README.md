@@ -6,10 +6,21 @@ Name: Teng Yi En (Kisa)
 Student ID: CT0389835 | 35978369
 
 ----------------------------------
+This GitHub documents my lab progress on Ubuntu Linux in VMWare
+----------------------------------
+
+Step 1:
+
+
 Setting up Ubuntu:
 
 Getting Ubuntu ISO image file from https://ubuntu.com/download/desktop
 ![Ubuntu ISO Screenshot](Screenshot_1.png)
+
+
+
+Step 2:
+
 
 Updating Ubuntu:
 * sudo apt update
@@ -21,6 +32,12 @@ Checking on System Services in Ubuntu:
 * systemctl list-units --type=service 
 * systemctl start|stop [service]
 * sudo systemctl status
+
+
+
+Step 3:
+
+
 
 Installing Application (VLC Media):
 * sudo apt install vlc
@@ -39,6 +56,12 @@ Creating, Editing, Deleting File:
 * nano file.txt
 * rm file.txt
 
+
+
+Step 4:
+
+
+
 Configuring DNS Local Host:
 * sudo apt install bind9 -y 
 * sudo systemctl status bind9
@@ -49,6 +72,12 @@ Configuring DNS Local Host:
 
 ![ping success](Screenshot_7.png)
 
+
+
+Step 5:
+
+
+
 Installlation for Certificate:
 * sudo apt install bind9 -y 
 * sudo apt install libnss3-tools -y
@@ -56,6 +85,12 @@ Installlation for Certificate:
 * mkcert myserver.local
 
 ![able to get cert](Screenshot_8.png)
+
+
+
+Step 6: 
+
+
 
 Installation of OpenVPN
 * sudo apt install openvpn -y 
