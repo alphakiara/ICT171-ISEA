@@ -122,3 +122,4 @@ SaveConfig = true
 * sudo systemctl status wg-quick@wg0
 
 ![showing ip address](Screenshot_14.png)
+![vpn is enabled](Screenshot_15.png)
