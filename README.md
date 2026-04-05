@@ -114,8 +114,11 @@ SaveConfig = true
 * sudo chmod 600 /etc/wireguard/wg0.conf
 * sudo systemctl start wg-quick@wg0
 * sudo systemctl enable wg-quick@wg0
+  
 * ip addr show wg0
 * sudo systemctl enable wg-quick@wg0
 * sudo systemctl daemon-reload
 * sudo systemctl start wg-quick@wg0
 * sudo systemctl status wg-quick@wg0
+
+![showing ip address](Screenshot_14.png)
