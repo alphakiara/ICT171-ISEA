@@ -51,6 +51,7 @@ Configuring DNS Local Host:
 Installlation for Certificate:
 * sudo apt install libnss3-tools -y
 * sudo apt install mkcert -y
+* mkcert -install
 * mkcert myserver.local
 
 ![able to get cert](Screenshot_8.png)
