@@ -9,17 +9,10 @@ Student ID: CT0389835 | 35978369
 This GitHub documents my lab progress on Ubuntu Linux in VMWare
 ----------------------------------
 
-Step 1:
-
-
 Setting up Ubuntu:
 
 Getting Ubuntu ISO image file from https://ubuntu.com/download/desktop
 ![Ubuntu ISO Screenshot](Screenshot_1.png)
-
-
-
-Step 2:
 
 
 Updating Ubuntu:
@@ -27,16 +20,6 @@ Updating Ubuntu:
 * sudo apt upgrade
   
 ![updates](Screenshot_3.png)
-
-Checking on System Services in Ubuntu:
-* systemctl list-units --type=service 
-* systemctl start|stop [service]
-* sudo systemctl status
-
-
-
-Step 3:
-
 
 
 Installing Application (VLC Media):
@@ -50,15 +33,6 @@ Installing LibreOffie:
 * sudo apt install libreoffice
   
 ![LibreOffice installation](Screenshot_5.png)
-
-Creating, Editing, Deleting File:
-* touch file.txt
-* nano file.txt
-* rm file.txt
-
-
-
-Step 4:
 
 
 
@@ -74,10 +48,6 @@ Configuring DNS Local Host:
 
 
 
-Step 5:
-
-
-
 Installlation for Certificate:
 * sudo apt install bind9 -y 
 * sudo apt install libnss3-tools -y
@@ -85,11 +55,6 @@ Installlation for Certificate:
 * mkcert myserver.local
 
 ![able to get cert](Screenshot_8.png)
-
-
-
-Step 6: 
-
 
 
 Setting up VPN Server (WireGuard)
@@ -103,7 +68,6 @@ Setting up VPN Server (WireGuard)
 * sudo chmod 600 /etc/wireguard/privatekey
 * sudo nano /etc/wireguard/wg0.conf
 
-![editing config file](Screenshot_13.png)
 
 [Interface]
 
@@ -115,12 +79,12 @@ PrivateKey = YOUR_PRIVATE_KEY
 
 SaveConfig = true
 
+![editing config file](Screenshot_13.png)
+
+
 * sudo chmod 600 /etc/wireguard/wg0.conf
-* sudo systemctl start wg-quick@wg0
-* sudo systemctl enable wg-quick@wg0
   
 * ip addr show wg0
-* sudo systemctl enable wg-quick@wg0
 * sudo systemctl daemon-reload
 * sudo systemctl start wg-quick@wg0
 * sudo systemctl status wg-quick@wg0
