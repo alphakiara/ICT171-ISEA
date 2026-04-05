@@ -97,6 +97,9 @@ Setting up VPN Server (WireGuard)
 * wg genkey | sudo tee /etc/wireguard/privatekey | wg pubkey | sudo tee /etc/wireguard/publickey
 * sudo cat /etc/wireguard/privatekey
 * sudo cat /etc/wireguard/publickey
+
+![keys generated](Screenshot_12.png)
+
 * sudo chmod 600 /etc/wireguard/privatekey
 * sudo nano /etc/wireguard/wg0.conf
   
