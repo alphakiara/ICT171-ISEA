@@ -102,7 +102,9 @@ Setting up VPN Server (WireGuard)
 
 * sudo chmod 600 /etc/wireguard/privatekey
 * sudo nano /etc/wireguard/wg0.conf
-  
+
+![editing config file(Screenshot_13.png)
+
 [Interface]
 Address = 10.0.0.1/24
 ListenPort = 51820
