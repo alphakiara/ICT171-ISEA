@@ -92,15 +92,25 @@ Step 6:
 
 
 
-Installation of OpenVPN
-* sudo apt install openvpn -y 
-* openvpn --version
-* sudo systemctl status openvpn
-* sudo apt install network-manager-openvpn -y
-* sudo apt install network-manager-openvpn-gnome -y
-* sudo systemctl restart NetworkManager
-* sudo systemctl status NetworkManager
+Setting up VPN Server (WireGuard)
+* sudo apt install wireguard -y
+* wg genkey | sudo tee /etc/wireguard/privatekey | wg pubkey | sudo tee /etc/wireguard/publickey
+* sudo cat /etc/wireguard/privatekey
+* sudo cat /etc/wireguard/publickey
+* sudo chmod 600 /etc/wireguard/privatekey
+* sudo nano /etc/wireguard/wg0.conf
+  
+[Interface]
+Address = 10.0.0.1/24
+ListenPort = 51820
+PrivateKey = YOUR_PRIVATE_KEY
+SaveConfig = true
 
-![executing command](Screenshot_9.png)
-
-![openvpn installed](Screenshot_10.png)
+* sudo chmod 600 /etc/wireguard/wg0.conf
+* sudo systemctl start wg-quick@wg0
+* sudo systemctl enable wg-quick@wg0
+* ip addr show wg0
+* sudo systemctl enable wg-quick@wg0
+* sudo systemctl daemon-reload
+* sudo systemctl start wg-quick@wg0
+* sudo systemctl status wg-quick@wg0
