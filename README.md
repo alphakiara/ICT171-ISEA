@@ -49,7 +49,6 @@ Configuring DNS Local Host:
 
 
 Installlation for Certificate:
-* sudo apt install bind9 -y 
 * sudo apt install libnss3-tools -y
 * sudo apt install mkcert -y
 * mkcert myserver.local
